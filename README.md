@@ -1,0 +1,1 @@
+# House Information Django App
