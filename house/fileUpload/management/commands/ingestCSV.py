@@ -39,4 +39,4 @@ class Command(BaseCommand):
                     serializer.save()
                 if not serializer.is_valid():
                     print(serializer.error())
-        self.stdout.write(str(line) + "success")
+        self.stdout.write(str(line) + "records where successfly inputted")
